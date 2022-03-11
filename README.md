@@ -22,8 +22,8 @@ or
 
 Once the material is on your computer, you'll see that the repository for this course has a file called environment.yml that includes a list of all the packages you need to install. If you run:
 
-cd IntroductoryCourse
-conda env create -f environment.yml
+`cd study-group`
+`conda env create -f environment.yml`
 
 from the root course directory, it will create the environment for you and install all the packages listed. This environment can be enabled using:
 
@@ -34,7 +34,6 @@ Finally you will need to install the following packages `scikit-learn` and `stat
 `conda install -c anaconda scikit-learn`
 
 `conda install -c anaconda statsmodels`
-
 
 ### 3. Setup and launch Jupyter
 
