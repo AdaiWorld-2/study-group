@@ -1,0 +1,21 @@
+name: study-group
+channels:
+  - conda-forge
+dependencies:
+  - arviz
+  - black
+  - jupyter
+  - jupyterlab
+  - jupyter_nbextensions_configurator
+  - jupytext
+  - libblas=*=*mkl
+  - matplotlib
+  - mkl-service
+  - nbqa
+  - numpy
+  - pandas
+  - pip
+  - pymc
+  - python-graphviz
+  - rise
+  - seaborn
